@@ -24,19 +24,13 @@ function ExploreComponent() {
       </div>
       <ul className="nav nav-pills mb-2">
         <li className="nav-item">
-          <a className="nav-link active" href="#">
-            For You
-          </a>
+          <span className="nav-link active">For You</span>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
-            Trending
-          </a>
+          <span className="nav-link">Trending</span>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
-            News
-          </a>
+          <span className="nav-link">News</span>
         </li>
       </ul>
       <div className="position-relative mb-2">
