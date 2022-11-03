@@ -6,8 +6,8 @@ const WhoToFollowListItem = ({
     <div className="list-group-item d-flex flex-row">
       <img
         className="avatar"
-        src={`/tuiter/img/${who.avatarIcon}`}
-        alt={`{who.userName} logo`}
+        src={`/img/${who.avatarIcon}`}
+        alt={`${who.userName} logo`}
       />
       <div className="flex-grow-1 ms-2">
         <div className="fw-bold">

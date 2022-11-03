@@ -50,3 +50,7 @@ h1 {
 .blue {
   color: var(--blue);
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}

@@ -21,7 +21,7 @@ const PostSummaryItem = ({
       </div>
       <img
         className="thumbnail flex-shrink-0 rounded"
-        src={`/tuiter/img/${post.image}`}
+        src={`/img/${post.image}`}
         alt={`${post.title}`}
       />
     </div>

@@ -3,7 +3,7 @@ import "./index.css";
 
 function ExploreComponent() {
   return (
-    <div className="col-10 col-lg-7 col-xl-6">
+    <div>
       <div className="row">
         <div className="col-11 position-relative">
           <input
@@ -34,7 +34,7 @@ function ExploreComponent() {
         </li>
       </ul>
       <div className="position-relative mb-2">
-        <img src="/tuiter/img/starship.webp" className="w-100" alt="Starship" />
+        <img src="/img/starship.webp" className="w-100" alt="Starship" />
         <h1 className="position-absolute wd-nudge-up text-white">
           SpaceX Starship
         </h1>
