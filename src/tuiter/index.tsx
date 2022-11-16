@@ -10,7 +10,7 @@ import { Route, Routes } from "react-router";
 import Home from "./home";
 
 const store = configureStore({
-  reducer: { who: whoReducer, tuits: tuitsReducer },
+  reducer: { who: whoReducer, tuitsData: tuitsReducer },
 });
 
 export type StoreState = typeof store extends { getState(): infer T }
